@@ -7,13 +7,11 @@
 
 import UIKit
 
+/// Base UIViewController parrent
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    /// Hides default navbar
+    var isNavigationBarHidden: Bool {
+        true
     }
-
-
 }
 
